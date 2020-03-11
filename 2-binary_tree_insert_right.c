@@ -6,8 +6,8 @@
  * @value: node value
  */
 
- binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
- {
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
+{
 	binary_tree_t *new;
 
 	if (!parent)
@@ -32,4 +32,4 @@
 
 	parent->right = new;
 	return (new);
- }
+}
