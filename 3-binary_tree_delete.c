@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_right - inserts a node as the left-child of another node
- * @tree: root to delete
- */
+* binary_tree_delete - inserts a node as the left-child of another node
+* @tree: root to delete
+*/
 
 void binary_tree_delete(binary_tree_t *tree)
 {
